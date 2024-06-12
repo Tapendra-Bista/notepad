@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">notepad</string>
+    <string name="text_list">text list</string>
+    <string name="button_to_add_text">button to add text</string>
+    <string name="add_new_text">add new text</string>
+    <string name="layout_for_listview">layout for listview</string>
+</resources>

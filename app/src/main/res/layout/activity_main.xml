@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    tools:ignore="VisualLintBounds">
+ <LinearLayout
+     android:isScrollContainer="true"
+     android:orientation="vertical"
+     android:id="@+id/simple_layout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:contentDescription="@string/layout_for_listview"
+     tools:ignore="UselessParent">
+  <ListView
+      android:id="@+id/listview"
+      android:layout_width="match_parent"
+      android:layout_height="700dp"/>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:id="@+id/floating_button"
+      android:layout_marginEnd="20dp"
+      android:layout_gravity="end|bottom"
+      android:src="@drawable/add"
+      android:padding="20dp"
+      android:layout_marginBottom="100dp"
+      android:contentDescription="@string/add_new_text"
+      tools:ignore="VisualLintBounds" />
+ </LinearLayout>
+
+</LinearLayout>
